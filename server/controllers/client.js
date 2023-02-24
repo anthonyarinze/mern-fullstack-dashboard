@@ -71,3 +71,10 @@ export const getTransactions = async (req, res) => {
     res.status(404).json({ message: error.message });
   }
 };
+
+export const getGeography = async (req, res) => {
+  try {
+  } catch (error) {
+    res.status(404).json({ message: error.message });
+  }
+};
