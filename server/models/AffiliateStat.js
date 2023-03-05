@@ -1,4 +1,4 @@
-import mongoose, { mongo } from "mongoose";
+import mongoose from "mongoose";
 
 const AffiliateStatSchema = new mongoose.Schema(
   {
@@ -11,5 +11,5 @@ const AffiliateStatSchema = new mongoose.Schema(
   { timestamps: true }
 );
 
-const Product = mongoose.model("AffiliateStat", AffiliateStatSchema);
-export default Product;
+const AffiliateStat = mongoose.model("AffiliateStat", AffiliateStatSchema);
+export default AffiliateStat;
